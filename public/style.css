@@ -753,6 +753,14 @@ body {
   max-width: 36rem;
 }
 
+.max-w-6xl {
+  max-width: 72rem;
+}
+
+.max-w-2xl {
+  max-width: 42rem;
+}
+
 .border-collapse {
   border-collapse: collapse;
 }
@@ -891,6 +899,11 @@ body {
   background-color: rgb(249 115 22 / var(--tw-bg-opacity, 1));
 }
 
+.bg-slate-950 {
+  --tw-bg-opacity: 1;
+  background-color: rgb(2 6 23 / var(--tw-bg-opacity, 1));
+}
+
 .bg-\[radial-gradient\(circle\2c \#73737350_1px\2c transparent_1px\)\] {
   background-image: radial-gradient(circle,#73737350 1px,transparent 1px);
 }
@@ -956,6 +969,11 @@ body {
 .py-6 {
   padding-top: 1.5rem;
   padding-bottom: 1.5rem;
+}
+
+.py-20 {
+  padding-top: 5rem;
+  padding-bottom: 5rem;
 }
 
 .pb-4 {
@@ -1048,6 +1066,10 @@ body {
 
 .text-white\/80 {
   color: rgb(255 255 255 / 0.8);
+}
+
+.text-white\/70 {
+  color: rgb(255 255 255 / 0.7);
 }
 
 .underline {
