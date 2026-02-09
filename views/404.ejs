@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>404 - DebugCrew</title>
+  <link rel="stylesheet" href="/style.css">
+</head>
+
+<body class="min-h-screen flex items-center justify-center bg-slate-950 text-white px-6">
+
+  <div class="text-center max-w-xl">
+    <h1 class="text-7xl md:text-9xl font-extrabold text-pink-500 drop-shadow-lg">
+      404
+    </h1>
+
+    <p class="text-2xl md:text-3xl font-bold mt-4">
+      This page got deleted by a bug.
+    </p>
+
+    <p class="text-white/70 mt-3 text-lg">
+      The link you clicked doesn’t exist. Don’t worry, DebugCrew is on the case.
+    </p>
+
+    <div class="mt-8 flex flex-col md:flex-row gap-4 justify-center">
+      <a href="/" class="bg-pink-500 hover:bg-pink-600 text-white font-bold px-6 py-3 rounded-xl shadow-lg transition duration-300 hover:scale-105 transform">
+        Go Home
+      </a>
+
+      <a href="/#projects" class="border border-white/20 hover:bg-white/10 text-white font-bold px-6 py-3 rounded-xl transition duration-300">
+        View Projects
+      </a>
+    </div>
+
+    <p class="text-white/50 mt-8 text-sm">
+      Redirecting you back home in <span class="text-pink-400 font-bold">10 seconds</span>...
+    </p>
+  </div>
+
+  <div class="absolute -z-50 inset-0 h-full w-full bg-[radial-gradient(circle,#73737350_1px,transparent_1px)] bg-[size:12px_12px]"></div>
+
+  <script>
+    setTimeout(() => {
+      window.location.href = "/";
+    }, 12000);
+  </script>
+
+</body>
+</html>

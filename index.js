@@ -12,6 +12,15 @@ app.use(express.static('public'));
 app.get('/', (req, res) => {
   res.render('index');
 })
+app.get('/new', (req, res) => {
+  res.render('comingsoon');
+})
+
+
+app.use((req, res) => {
+  res.status(404).render("404");
+});
+
 
 
 
