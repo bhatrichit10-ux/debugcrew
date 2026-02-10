@@ -15,7 +15,9 @@ app.get('/', (req, res) => {
 app.get('/new', (req, res) => {
   res.render('comingsoon');
 })
-
+app.get('/boba', (req, res) => {
+  res.render('boba');
+})
 
 app.use((req, res) => {
   res.status(404).render("404");

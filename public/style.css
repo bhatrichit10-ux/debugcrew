@@ -745,6 +745,10 @@ body {
   height: 5rem;
 }
 
+.h-32 {
+  height: 8rem;
+}
+
 .h-40 {
   height: 10rem;
 }
@@ -763,6 +767,10 @@ body {
 
 .w-1 {
   width: 0.25rem;
+}
+
+.w-32 {
+  width: 8rem;
 }
 
 .w-80 {
@@ -924,6 +932,10 @@ body {
 
 .border {
   border-width: 1px;
+}
+
+.border-4 {
+  border-width: 4px;
 }
 
 .border-b {
