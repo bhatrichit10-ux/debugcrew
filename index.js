@@ -1,6 +1,6 @@
 require('dotenv').config();
 const chalk = require('chalk')
-
+const path = require('path')
 const express = require('express');
 const app = express();
 
@@ -15,6 +15,9 @@ app.get('/new', (req, res) => {
 })
 app.get('/boba', (req, res) => {
   res.render('boba');
+})
+app.get('/sitemap.xml', (req, res) => {
+  res.sendFile(path.join(__dirname, "public", "sitemap.xml"))
 })
 
 app.use((req, res) => {
